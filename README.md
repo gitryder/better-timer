@@ -1,4 +1,4 @@
-# BetterTimer-Android [![](https://jitpack.io/v/gitryder/BetterTimer-Android.svg)](https://jitpack.io/#gitryder/BetterTimer-Android)
+# Better Timer [![](https://jitpack.io/v/gitryder/BetterTimer-Android.svg)](https://jitpack.io/#gitryder/BetterTimer-Android)
 
 BetterTimer is a timer library for Android that provides a robust API for implementing a timer in Android
 
@@ -16,6 +16,6 @@ repositories {
 }
 
 dependencies {
-  implementation 'com.github.gitryder:BetterTimer-Android:v0.1-alpha'
+  implementation 'com.github.gitryder:better-timer:v0.1-alpha'
 }
 ```
