@@ -16,5 +16,6 @@ repositories {
 }
 
 dependencies {
+  implementation 'com.github.gitryder:BetterTimer-Android:v0.1-alpha'
 }
 ```
