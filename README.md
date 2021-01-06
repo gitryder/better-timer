@@ -17,7 +17,7 @@ repositories {
 ```
 And this to your app's module-level `build.gradle` file:
 
-```
+```gradle
 dependencies {
   implementation 'com.github.gitryder:better-timer:v0.1-alpha'
 }
