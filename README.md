@@ -3,7 +3,7 @@
 BetterTimer is a timer library for Android that provides a robust API for implementing a timer in Android
 
 <p>
-  <img src="static/better_timer_logo.svg" width="400"/>
+  <img src="static/better_timer_logo.svg" width="500"/>
 </p>
  
  👨‍🔧 Installation
