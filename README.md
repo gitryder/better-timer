@@ -1,4 +1,4 @@
-# BetterTimer [![](https://jitpack.io/v/gitryder/BetterTimer-Android.svg)](https://jitpack.io/#gitryder/BetterTimer-Android)
+# BetterTimer [![](https://jitpack.io/v/gitryder/BetterTimer-Android.svg)](https://jitpack.io/#gitryder/BetterTimer-Android) 
 
 BetterTimer is a timer library for Android that provides a robust API for implementing a timer in Android
 
@@ -6,16 +6,34 @@ BetterTimer is a timer library for Android that provides a robust API for implem
   <img src="static/better_timer_logo.svg" width="500"/>
 </p>
  
- ## Download
- Use Gradle
- 
+ 👨‍🔧 Installation
+ ==================
+Add this to your app's project-level `build.gradle` file:
  
 ```gradle
 repositories {
   maven { url 'https://jitpack.io' }
 }
+```
+And this to your app's module-level `build.gradle` file:
 
+```
 dependencies {
   implementation 'com.github.gitryder:better-timer:v0.1-alpha'
 }
 ```
+🌄 Contribute to this project
+=============================
+1. Fork this repo (git clone https://github.com/gitryder/better-timer.git)
+2. Create a feature branch (git checkout -b a-new-feature)
+3. Commit your work (git commit -am 'Add new feature')
+4. Push to your branch (git push origin a-new-feature)
+5. Create a shiny new Pull Request
+6. Pat yourself on the back!
+
+👨‍💻 Developer
+===============
+Built with ❤︎ by Danyl Fernandes
+- Website (WIP)
+- Twitter (https://twitter.com/androidanyl)
+- LinkedIn (https://www.linkedin.com/in/danyl-fernandes-5bb706157/)
