@@ -5,6 +5,8 @@ BetterTimer is a timer library for Android that provides a robust API for implem
 <p>
   <img src="static/better_timer_logo.svg" width="400"/>
 </p>
+
+![](https://github.com/gitryder/better-timer/blob/main/static/ctd_vs_bt.gif)
  
  👨‍🔧 Installation
  ==================
