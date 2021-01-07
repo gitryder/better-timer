@@ -1,6 +1,6 @@
 # BetterTimer [![](https://jitpack.io/v/gitryder/BetterTimer-Android.svg)](https://jitpack.io/#gitryder/BetterTimer-Android) 
 
-BetterTimer is a timer library for Android that provides a robust API for implementing a timer in Android
+BetterTimer is the fastest way to implement a timer in Android. It solves some of CountDownTimer's problems<sup> [1](#%EF%B8%8F-citations) </sup> and provides a robust API for interfacing<sup> [2](#%EF%B8%8F-citations) </sup> with the timer
 
 <p>
   <img src="static/better_timer_logo.svg" width="500"/>
@@ -39,6 +39,11 @@ Built with ❤︎ by Danyl Fernandes
 - Website (WIP)
 - Twitter (https://twitter.com/androidanyl)
 - LinkedIn (https://www.linkedin.com/in/danyl-fernandes-5bb706157/)
+
+✳️ Citations
+============
+1. Not a "problem" per se, but every tick of the `CountDownTimer` is calculated using the duration of the previous tick, which is what makes the ticks inaccurate as the timer run-time goes up.
+2. BetterTimer provides convenience methods (`timer.start()`, `timer.pause()`, `timer.reset()`) to make setting up a timer in your app AS EASY AS CAN BE.
 
 📑 License
 ==========
