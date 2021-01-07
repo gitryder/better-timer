@@ -1,6 +1,6 @@
 # BetterTimer [![](https://jitpack.io/v/gitryder/BetterTimer-Android.svg)](https://jitpack.io/#gitryder/BetterTimer-Android) 
 
-BetterTimer is a timer library for Android that provides a robust API for implementing a timer in Android
+BetterTimer is the fastest way to implement a timer in Android. It solves some of CountDownTimer's problems and provides a robust API for interfacing<sup> [1](#Citations) </sup> with the timer
 
 <p>
   <img src="static/better_timer_logo.svg" width="400"/>
