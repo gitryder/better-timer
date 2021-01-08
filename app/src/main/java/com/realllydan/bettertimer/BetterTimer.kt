@@ -84,6 +84,9 @@ class BetterTimer(minInFuture: Int, onTimerTickListener: OnTimerTickListener) {
         if (!mTimerRunning) {
             mMillisUntilFinished = mMillisStartTime
             mOnTimerTickListener.onTimerTick("done!")
+        } else {
+            pause()
+            reset()
         }
     }
 
