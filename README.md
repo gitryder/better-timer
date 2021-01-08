@@ -24,6 +24,46 @@ dependencies {
   implementation 'com.github.gitryder:better-timer:v0.2-alpha'
 }
 ```
+🚀 Usage
+========
+1. Have your `Activity` implement `BetterTimer.OnTimerTickListener`
+```diff
+- class MainActivity : AppCompatActivity() { ... }
++ class MainActivity : AppCompatActivity(), BetterTimer.OnTimerTickListener { ... }
+```
+2. Create an instance of `BetterTimer`
+  - Pass the time (in minutes)
+  - Pass the activity context (this) to receive callbacks
+```kotlin
+val timer = BetterTimer(25, this)
+```
+3. Call the timer methods as you please
+```kotlin
+timerStartButton.setOnClickListener { 
+    timer.start()  
+    // Update UI Logic
+}
+```
+
+```kotlin
+timerPauseButton.setOnClickListener { 
+    timer.pause()
+    // Update UI Logic
+}
+```
+
+```kotlin
+timerResetButton.setOnClickListener { 
+    timer.reset()         
+    // Update UI Logic
+}
+```
+4. Update the view that displays the time, in the `onTimerTick()` callback
+```kotlin
+override fun onTimerTick(timeUntilFinished: String) {
+    timerDisplayTextview.text = timeUntilFinished
+}
+```
 🌄 Contribute to this project
 =============================
 1. Fork this repo (git clone https://github.com/gitryder/better-timer.git)
