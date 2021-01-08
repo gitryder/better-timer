@@ -21,7 +21,7 @@ object Time {
     /**
      * A constant representing one second, in milliseconds
      */
-    const val MILLIS_ONE_SECOND = 60000L
+    const val MILLIS_ONE_MINUTE = 60000L
 
     /**
      * Uses the provided [millisToFormat] and returns a string formatted
