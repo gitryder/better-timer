@@ -23,7 +23,7 @@ class BetterTimer(minInFuture: Int, onTimerTickListener: OnTimerTickListener) {
     /**
      * The Timer start time in millis.
      */
-    private val mMillisStartTime = (minInFuture * Time.MILLIS_ONE_SECOND)
+    private val mMillisStartTime = (minInFuture * Time.MILLIS_ONE_MINUTE)
 
     /**
      * The callback that will run when the timer ticks.
